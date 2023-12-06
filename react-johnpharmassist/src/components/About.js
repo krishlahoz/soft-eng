@@ -8,10 +8,12 @@ function About() {
     <>
       <div className="about-container">
         <div className="about-image">
-          <img src="/images/PREGNANCY.jpg" alt="Description" />
+          <img src="/images/About Us.jpg" alt="Description" />
         </div>
         <div className="about-content">
-          <h2>About Us</h2>
+          <div >
+          <h2>St. John’s PharmAssist</h2>
+          </div>
           <p>
             Medicine and healthcare has evolved throughout history. Before, the
             primary source of medicine has been herbal. However, thanks to
@@ -101,7 +103,7 @@ function About() {
         <div className="about-team">
           <div className="team-container">
             <div className="team-pic">
-              <img src="/images/breast.jpg" alt="" />
+              <img src="/images/ivahnpic.jpg" alt="" />
             </div>
             <div className="team-info">
               <h3> Ivahnn Garcia </h3>
@@ -113,7 +115,7 @@ function About() {
           </div>
           <div className="team-container">
             <div className="team-pic">
-              <img src="/images/breast.jpg" alt="" />
+              <img src="/images/janpolpic.jpg" alt="" />
             </div>
 
             <div className="team-info">
@@ -129,7 +131,7 @@ function About() {
 
           <div className="team-container">
             <div className="team-pic">
-              <img src="/images/breast.jpg" alt="" />
+              <img src="/images/kylepic.jpg" alt="" />
             </div>
             <div className="team-info">
               <h3> Kyle Fernandez </h3>
@@ -144,7 +146,7 @@ function About() {
         <div className="about-team">
           <div className="team-container">
             <div className="team-pic">
-              <img src="/images/breast.jpg" alt="" />
+              <img src="/images/juliapic.jpg" alt="" />
             </div>
             <div className="team-info">
               <h3> Julia Daphne Gatdula </h3>
@@ -157,7 +159,7 @@ function About() {
           </div>
           <div className="team-container">
             <div className="team-pic">
-              <img src="/images/breast.jpg" alt="" />
+              <img src="/images/krisiapic.jpg" alt="" />
             </div>
             <div className="team-info">
               <h3> Krisia Lahoz </h3>
@@ -171,7 +173,7 @@ function About() {
 
           <div className="team-container">
             <div className="team-pic">
-              <img src="/images/breast.jpg" alt="" />
+              <img src="/images/kianpic.jpg" alt="" />
             </div>
             <div className="team-info">
               <h3> Kian Denniel Varde </h3>
