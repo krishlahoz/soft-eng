@@ -131,7 +131,13 @@
     align-items: center;
     margin-bottom: 16px;
   }
-  
+
+  .social-logo:hover {
+  transition: all 0.2s ease-out;    
+  color: #fff;
+  text-decoration: none;
+  }
+
   .website-rights {
     color: #fff;
     margin-bottom: 16px;
