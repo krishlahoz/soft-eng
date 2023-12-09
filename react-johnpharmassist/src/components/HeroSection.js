@@ -7,15 +7,16 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/doc1.mp4' autoPlay loop muted />
-      <h1>Medicine Information</h1>
-      <p>What are you waiting for?</p>
+      <h1>Welcome to 
+        St. John's PharmAssist!</h1>
+      <p>We're always ready to assist!</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          ABOUT US
         </Button>
         <Button
           className='btns'
@@ -23,7 +24,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          OUR PRODUCTS <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

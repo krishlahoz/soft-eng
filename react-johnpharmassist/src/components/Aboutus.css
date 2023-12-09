@@ -1,12 +1,14 @@
 /* Aboutus.css */
 
 /* General styles */
+
 .about-container {
   display: flex;
   align-items: center;
   height: auto;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: space-around;
+  margin: 0;
 }
 
 /* About image styles */
@@ -36,11 +38,11 @@
 }
 
 .about-content h2 {
-  font-size: 40px;
+  font-size: 30px;
   text-transform: capitalize;
   margin-bottom: 20px;
   margin-top: 20px;
-  color: #568259;
+  color: #46c001;
   text-decoration: underline;
 }
 
@@ -51,6 +53,14 @@
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
+}
+.about-header h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #568259;
+  text-decoration: none;
 }
 
 /* About team styles */
@@ -79,8 +89,9 @@
   text-transform: capitalize;
   margin-bottom: 20px;
   margin-top: 20px;
-  color: #46c001;
+  color: #46c001;  
   text-decoration: underline;
+  
 }
 
 .about-story p {
@@ -91,7 +102,12 @@
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
-  padding: 0 20px;
+  /* padding: 0 20px; */
+  padding-top: 0;
+  padding-right: 50px;
+  padding-bottom: 0;
+  padding-left: 50px;
+  text-align: justify;
 }
 
 /* About team head styles */
@@ -104,12 +120,24 @@
 }
 
 .about-teamhead p {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+  text-align: left;
+  font-weight: normal !important;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  /* padding: 0 20px; */
+  /* padding: 0 20px; */
+  padding-top: 20px;
+  padding-right: 33px;
+  padding-bottom: 0;
+  padding-left: 33px;
+  text-align: justify;
 }
 
 .about-teamhead h2 {
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 20px;
   text-decoration: underline;
 }
@@ -117,12 +145,16 @@
 /* Team intro styles */
 .team-intro {
   margin: 0 20px;
+  
 }
 
 .team-intro h2 {
   margin: 0 20px;
-  color: #568259;
+  color: #46c001;
 }
+
+
+
 
 /* Team container styles */
 .team-container {
@@ -144,7 +176,7 @@
   margin-bottom: 0px;
   z-index: 1;
   position: relative;
-  border: ;
+
 }
 
 .team-container .team-pic img {
@@ -157,16 +189,20 @@
 .team-container .team-info {
   font-size: 18px;
   letter-spacing: 1px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
+  margin-top: 15px;
 }
 
 .team-info p {
   font-weight: 300;
   text-transform: uppercase;
-  margin: 8px 0 20px 0;
+  /* margin: 8px 0 20px 0; */
   letter-spacing: 2px;
   font-style: italic;
   color: #808080;
+  text-align: center;
+  /* margin-top: 0px; */
+  padding-top:15px;
 }
 
 /* Adjusted font size for small screens */

@@ -28,7 +28,9 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                John PharmAssist 
+                St. John's PharmAssist               
+                <i className="fab fa-react"></i>
+
                 
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -47,18 +49,33 @@ function Navbar() {
                 </li>
                 <li className='nav-item'>
                     <Link to='/aboutus' className='nav-links' onClick={closeMobileMenu}>
-                        About us
+                        About Us
                     </Link>
                 </li>
+
+                <li className='nav-item'>
+                    <Link to='/contactus' className='nav-links' onClick={closeMobileMenu}>
+                        Contact Us
+                    </Link>
+                </li>
+
                 <li>
                     <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                         Sign up
                     </Link>
                 </li>
-            
             </ul>
             
-            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+            {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
+
+            {/* Wrap the Button with Link and specify the 'to' prop */}
+            {button && (
+            <Link to='/sign-up' className='btn-mobile' onClick={closeMobileMenu}>
+              <Button buttonStyle='btn--outline'>SIGN UP</Button>
+            </Link>
+          )}
+
+
         </div>
       </nav>
     </>

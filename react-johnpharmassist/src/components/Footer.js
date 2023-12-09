@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          John PharmaAssist: Always Ready to Assist
+          St. John's PharmAssist: Always Ready to Assist!
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
@@ -29,21 +29,21 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/aboutus">Our Beginnings</Link>
+            <Link to="/aboutus">The Story Behind the Name</Link>
+            <Link to="/aboutus">Meet the Team</Link>
+            {/* <Link to="/">Investors</Link>
+            <Link to="/">Terms of Service</Link> */}
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="/contactus">Contact</Link>
+            <Link to="/contactus">Support</Link>
+            {/* <Link to="/">Destinations</Link>
+            <Link to="/">Sponsorships</Link> */}
           </div>
         </div>
-        <div className="footer-link-wrapper">
+        {/* <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Videos</h2>
             <Link to="/">Submit Video</Link>
@@ -58,18 +58,20 @@ function Footer() {
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              John PharmAssist
+              St. John's PharmAssist
               <i className="fab fa-react"></i>
             </Link>
           </div>
-          <small class="website-rights">John PharmAssist © 2020</small>
-          <div class="social-icons">
+          <small class="website-rights">St. John's PharmAssist © 2023</small>
+
+          {/* DELETE THIS */}
+          {/* <div class="social-icons">
             <Link
               class="social-icon-link facebook"
               to="/"
@@ -110,7 +112,9 @@ function Footer() {
             >
               <i class="fab fa-linkedin" />
             </Link>
-          </div>
+          </div> */}
+          {/* END */}
+
         </div>
       </section>
     </div>

@@ -10,9 +10,14 @@ function About() {
         <div className="about-image">
           <img src="/images/About Us.jpg" alt="Description" />
         </div>
+
         <div className="about-content">
+          <div className="about-header">
+              <h2> About St. John's PharmAssist</h2>
+          </div>
+
           <div >
-          <h2>St. John’s PharmAssist</h2>
+          <h2>Our Beginnings</h2>
           </div>
           <p>
             Medicine and healthcare has evolved throughout history. Before, the
@@ -34,6 +39,9 @@ function About() {
           </p>
         </div>
       </div>
+
+
+      <br />
       <div className="about-story">
         <h2>The Story Behind The Name</h2>
         <p>
@@ -89,6 +97,7 @@ function About() {
         </p>
       </div>
 
+      <br />
       <div className="about-teamhead">
         <div className="team-intro">
           <h2>The People Behind The Project</h2>
@@ -100,6 +109,7 @@ function About() {
             them into one. Thus, the very website was created.
           </p>
         </div>
+        
         <div className="about-team">
           <div className="team-container">
             <div className="team-pic">
@@ -108,20 +118,20 @@ function About() {
             <div className="team-info">
               <h3> Ivahnn Garcia </h3>
               <p>
-                <br />
-                Front End Developer
+                {/* <br /> */}
+                Head Front End Developer
               </p>
             </div>
           </div>
+
           <div className="team-container">
             <div className="team-pic">
               <img src="/images/janpolpic.jpg" alt="" />
             </div>
-
             <div className="team-info">
               <h3> John Paul Amegleo </h3>
               <p>
-                <br />
+                {/* <br /> */}
                 Team Leader <br />
                 Database Manager <br />
                 Back End Developer
@@ -136,7 +146,7 @@ function About() {
             <div className="team-info">
               <h3> Kyle Fernandez </h3>
               <p>
-                <br />
+                {/* <br /> */}
                 Front End Developer
               </p>
             </div>
@@ -151,7 +161,7 @@ function About() {
             <div className="team-info">
               <h3> Julia Daphne Gatdula </h3>
               <p>
-                <br />
+                {/* <br /> */}
                 Researcher <br />
                 Documentarist
               </p>
@@ -164,9 +174,10 @@ function About() {
             <div className="team-info">
               <h3> Krisia Lahoz </h3>
               <p>
-                <br />
+                {/* <br /> */}
                 Researcher <br />
-                Back End Developer
+                Front End Developer
+                Content Creator
               </p>
             </div>
           </div>
@@ -178,7 +189,7 @@ function About() {
             <div className="team-info">
               <h3> Kian Denniel Varde </h3>
               <p>
-                <br />
+                {/* <br /> */}
                 Front End Developer
               </p>
             </div>
