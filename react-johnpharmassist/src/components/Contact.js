@@ -1,7 +1,7 @@
 // Contactus.js
 import React, { useState } from "react";
 import "./Contactus.css";
-import { Modal } from 'react-bootstrap'; // Import Bootstrap modal component
+import { Modal } from 'react-bootstrap'; 
 
 function Contact() {
   // State to store form data
@@ -11,9 +11,6 @@ function Contact() {
     contactNumber: "",
     message: "",
   });
-
-  // State for submission message
-  // const [submissionMessage, setSubmissionMessage] = useState("");
 
   // State to control modal visibility
   const [showModal, setShowModal] = useState(false);
@@ -28,8 +25,6 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Add your form submission logic here
-
     // Clear form fields
     setFormData({
       name: "",

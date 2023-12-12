@@ -66,9 +66,9 @@
           </div>
         </div>
 
-        <Link to="/medicine-form" className="link-button">
+        {/* <Link to="/medicine-form" className="link-button">
           Add New Medicine
-        </Link>
+        </Link> */}
       </div>
     );
   }

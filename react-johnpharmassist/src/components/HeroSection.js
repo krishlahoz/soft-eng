@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -10,7 +10,7 @@ function HeroSection() {
       <h1>Welcome to 
         St. John's PharmAssist!</h1>
       <p>We're always ready to assist!</p>
-      <div className='hero-btns'>
+      {/* <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -26,8 +26,11 @@ function HeroSection() {
         >
           OUR PRODUCTS <i className='far fa-play-circle' />
         </Button>
-      </div>
+      </div> */}
+
     </div>
+
+
   );
 }
 

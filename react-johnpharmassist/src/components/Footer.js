@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Footer.css";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const [email, setEmail] = useState(""); // State to manage the value of the email input
+  const [showModal, setShowModal] = useState(false);
+
+  const handleInputChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubscribeClick = (e) => {
+    e.preventDefault();
+    setShowModal(true);
+    setEmail("");
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <div className="footer-container">
       <section className="footer-subscription">
@@ -15,16 +31,24 @@ function Footer() {
         </p>
         <div className="input-areas">
           <form>
-            <input
+          <input
               className="footer-input"
               name="email"
               type="email"
               placeholder="Your Email"
+              value={email} // Bind the value to the state
+              onChange={handleInputChange} // Handle input changes
             />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            <button type="submit" onClick={handleSubscribeClick} className="footer-button">
+
+              Subscribe 
+            </button>
+ 
           </form>
         </div>
       </section>
+
+      
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
@@ -114,11 +138,41 @@ function Footer() {
             </Link>
           </div> */}
           {/* END */}
-
         </div>
       </section>
+
+{/* Bootstrap Modal */}
+      <div
+        className={`modal fade ${showModal ? "show" : ""}`}
+        style={{ display: showModal ? "block" : "none" }}
+        tabIndex="-1"
+        role="dialog"
+      >
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title">Subscription Successful!</h5>
+              {/* <button type="button" className="btn-close" onClick={handleCloseModal} aria-label="Close"></button> */}
+            </div>
+
+            <div className="modal-body">
+              Thank you for subscribing to St. John's PharmAssist!
+            </div>
+
+            <div className="modal-footer">
+              <button type="button" className="modal-button" onClick={handleCloseModal} > Close </button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
     </div>
+
   );
 }
 
 export default Footer;
+
+
+
+
